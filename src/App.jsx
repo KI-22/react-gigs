@@ -6,12 +6,54 @@ import "./App.css";
 import "./Gig.css";
 import ClickListener from "./components/ClickListener";
 import InputListener from "./components/InputListener";
+import ClickInput from "./components/ClickInput";
+
+// function App() {
+//   function handleSubmit(e) {
+//     e.preventDefault();
+//     const form = e.target;
+//     const formData = new FormData(form);
+
+//     const formJson = Object.fromEntries(formData.entries());
+//     console.log(formJson);
+//   }
+//   return (
+//     <form method="post" onSubmit={handleSubmit}>
+//       <label>
+//         Text input: <input name="myInput" defaultValue="Some initial value" />
+//       </label>
+//       <button type="submit">Submit form</button>
+//       </form>
+//   );
+// }
+// export default App;
+
+
 
 function App() {
+
+  // function handleSubmit(e) {
+  //   e.preventDefault();
+  //   const form = e.target;
+  //   const formData = new FormData(form);
+
+  //   const formJson = Object.fromEntries(formData.entries());
+  //   console.log(formJson);
+  // }
+  // return (
+  //   <form method="post" onSubmit={handleSubmit}>
+  //     <label>
+  //       Text input: <input name="myInput" defaultValue="Some initial value" />
+  //     </label>
+  //     <button type="submit">Submit form</button>
+  //     </form>
+  // );
+  
   return (
     <>
-      <ClickListener />
-      <InputListener />
+      <ClickInput />
+       {/* <InputListener />
+       <ClickListener />  */}
 
       {/* <Hello name="World" /> */}
       {/* <img className="logo" src={makersLogo}></img> */}
@@ -22,7 +64,7 @@ function App() {
       <p>Date time: XXX</p>
       <p>Where: this venue</p> */}
 
-      <Gig 
+      {/* <Gig 
         artist="Elderbrook"
         imgURL = "https://i.scdn.co/image/ab67616d00001e023846362ecfbec95fde427a94" 
         description = "It's a concert. Be there."
@@ -35,7 +77,7 @@ function App() {
         description = "It's another concert. Who knows."
         datetime = "one day"
         location = "not here"
-      />
+      /> */}
 
     </>
   );
