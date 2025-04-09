@@ -1,0 +1,14 @@
+h3 {
+    font-size: 3.2em;
+    line-height: 2;
+  }
+  
+.band-img {
+width: 20rem;
+}
+
+.descr-text {
+    font-size: 1.75em;
+    line-height: 1;
+    color: navy;
+}
